@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-items: center;
+
 }
 
 #footer {
@@ -17,20 +17,24 @@
   background-color: #333;
   border-radius: 3px;
   flex-direction: column;
-  border: 2px solid red;
   margin: 0rem 10rem 0 20rem;
 }
 
 .social-media-container {
-  border: 2px solid red;
+
   align-items: center;
   justify-items: center;
 }
 
-.lang-container {
-  flex-direction: row;
-  align-content: flex-end;
-  border: 2px solid red;
+
+
+.footer-h2 {
+        padding-top: 2rem;
+        font-family: pacifico;
+        color: #fff;
+        padding-bottom: 1rem;
+        background-color: #333;
+        text-align: center;
 }
 
 #footer h2 {
@@ -95,7 +99,11 @@
   padding-top: 0.9rem;
 }
 
-.lang {
+.lang label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: 100;
+    font-size: smaller;
 }
 
 /*CSS for Footer end*/
