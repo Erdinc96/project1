@@ -217,15 +217,16 @@ button:hover {
         height: 100%;
       }
       .hero-image {
-      
+        margin-top: -20px;
         background-image:url("images/heroimage.jpg");
+        background-attachment: fixed;
         position: relative;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
-     
-      }
+        margin-top: 40px;
+       }
       .hero-text {
         text-align: center;
         position: absolute;
