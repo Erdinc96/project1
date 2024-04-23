@@ -1,40 +1,20 @@
 /*CSS for Footer start*/
 
-.footer-global {
-  background-color: #333;
-  border-radius: 3px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-}
-
 #footer {
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  display: flex;
-  background-color: #333;
-  border-radius: 3px;
-  flex-direction: column;
-  margin: 0rem 10rem 0 20rem;
 }
 
 .social-media-container {
-
   align-items: center;
   justify-items: center;
 }
 
-
-
 .footer-h2 {
-        padding-top: 2rem;
-        font-family: pacifico;
-        color: #fff;
-        padding-bottom: 1rem;
-        background-color: #333;
-        text-align: center;
+  padding-top: 2rem;
+  font-family: pacifico;
+  color: #fff;
+  padding-bottom: 1rem;
+  background-color: #333;
+  text-align: center;
 }
 
 #footer h2 {
@@ -44,25 +24,20 @@
   padding-bottom: 1rem;
 }
 
-#footer p {
-  list-style: none;
-  text-decoration: none;
-  font-size: 0.9rem;
-}
-
 .footer-navbar {
   background-color: #333;
+  border-radius: 3px;
 }
 
 .footer-nav-links {
   list-style: none;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 3rem;
-  margin-top: -2rem;
   display: flex;
+  margin: auto;
+  flex-direction: row;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   justify-content: space-around;
   align-items: center;
-  gap: 4rem;
+  gap: 14rem;
 }
 
 .footer-nav-links a {
@@ -78,9 +53,14 @@
 .social-media {
   /* border: 1px solid red; */
   display: flex;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  gap: 1rem;
+  justify-content: center;
+  gap: 5rem;
+  background-color: #333;
+  padding-top: 5rem;
+}
+
+.social-media img {
+  width: 60px;
 }
 
 .pinterest__media:hover {
@@ -99,11 +79,40 @@
   padding-top: 0.9rem;
 }
 
+.social-media-lang.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-lang .lang {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  padding-bottom: 3rem;
+  padding-right: 3rem;
+  justify-items: center;
+}
+
+.social-media {
+  gap: 1rem;
+  background-color: #333;
+}
+
+.lang {
+  background-color: #333;
+}
+
+.lang label,
+option {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  font-weight: 100;
+  font-size: smaller;
+}
+
 .lang label {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #fff;
-    font-weight: 100;
-    font-size: smaller;
+  width: 130px;
+  align-items: center;
 }
 
 /*CSS for Footer end*/
