@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="testimonial.css"/>
         <link rel="stylesheet" href="heroimage.css"/>
         <link rel="stylesheet" href="video-section.css"/>
+        <link rel="stylesheet" href="discount.css"/>
     
         <link href="https://fonts.googleapis.com/css2?family=Borel&family=Lilita+One&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
        
@@ -170,7 +171,7 @@
               </select>
             </div>
             <div class="option-group">
-              <h4>Buttercream Finish</h4>
+              <h4 class="head-cake">Buttercream Finish</h4>
               <label
                 ><input type="radio" name="buttercream-finish" value="smooth" />
                 Smooth</label
@@ -185,7 +186,7 @@
               ><br />
             </div>
             <div class="option-group">
-              <h4>Additional Decorations</h4>
+              <h4 class="head-cake">Additional Decorations</h4>
               <label
                 ><input type="checkbox" name="rosettes" /> Rosettes (+$20.00)</label
               ><br />
@@ -206,32 +207,37 @@
               ><br />
             </div>
             <div class="option-group">
-              <h4>Quantity</h4>
+              <h4 class="head-cake">Quantity</h4>
               <div class="quantity-selector">
                 <input type="number" id="quantity" value="1" min="1" />
               </div>
+              <div><button class="add-to-cart-btn" onclick="addToCart()">Add to Cart - $60</button></div>
             </div>
           </div>
         </div>
 
-         <!--Eddy's Discount section-->
         
-         <section class="section-stampcard">
-          <h2 class="header-discount">Get Your Loyalty Card Today!</h2>
-          <div class="structure">
-              <div>
-              <img class="stampcard" src="stamp-card.png" alt="" width="95%" height="95%">
-              </div>
-              <div>
-                  <ul class="list_benefits">
-                      <li class="listed-benefits">Be a lovely lovely part of the Cake-My-Day Family!</li>
-                      <li class="listed-benefits" >Get Your 6th Product for Free!</li>
-                      <li class="listed-benefits" >Get 20%-Off to Our Sesional Cakes!</li>
-                  </ul>
-              </div>
-          </div>  
-      </section> 
-      </div>
+      <!---Eddy' Part-->
+          <!--Eddy's Discount section-->
+        
+          <section class="section-stampcard">
+            <h2 class="header-discount">Get Your Loyalty Card Today!</h2>
+            <div class="structure">
+                <div>
+                <img class="stampcard" src="stamp-card.png" alt="" width="95%" height="95%">
+                </div>
+                <div>
+                    <ul class="list_benefits">
+                        <li class="listed-benefits">Be a lovely lovely part of the Cake-My-Day Family!</li>
+                        <li class="listed-benefits" >Get Your 6th Product for Free!</li>
+                        <li class="listed-benefits" >Get 20%-Off to Our Sesional Cakes!</li>
+                    </ul>
+                </div>
+            </div>  
+        </section> 
+
+        <!--eddy's Part end-->
+
 
 <!---Gulminas part-->
 <!--Location Section start-->
