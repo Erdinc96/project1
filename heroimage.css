@@ -289,7 +289,50 @@ button:hover {
       h1{
           width: 40px;
       }
+/*CSS for loaction part*/
 
+.location-container{
+  display: grid;
+  grid-template-rows: 1fr;
+
+  border: inherit;
+  padding: 10px;
+  margin: 50px;
+ 
+}
+.item-1{
+
+border: none;
+padding: 30px;
+font-size: 30px;
+text-align: center;
+position: cover;
+}
+.item-2{
+border: none;
+padding: 20px;
+text-align: center;
+}
+.item-3{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding: 10px;
+margin: 5px;
+}
+h2{
+color:rgb(8, 8, 8);
+
+font-size: 30px;
+
+vertical-align: middle;
+}
+
+img{
+object-fit: cover;
+width: 100%;
+}
+
+/*css for location part end*/
 /*CSS for Testimonial start*/
 
 .global-testimonial-container {
