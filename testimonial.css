@@ -1,0 +1,55 @@
+/*CSS for Testimonial start*/
+
+.global-testimonial-container {
+  background-color: rgb(221, 202, 202);
+  display: flex;
+}
+
+.testimonial-container {
+  display: flex;
+}
+
+.testimonial-img .person-img {
+  width: 150px;
+  height: 150px;
+  margin-top: 4rem;
+  margin-left: 4rem;
+}
+
+.testimonial-container p {
+  color: #555;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 6rem 3rem 0 3rem;
+}
+
+.mid-global-container {
+  background-color: rgb(221, 202, 202);
+}
+
+.mid-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.lower-global-container {
+  background-color: rgb(221, 202, 202);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.star-img {
+  /* width: 110px;
+  height: 30px; */
+  margin-top: 2rem;
+  filter: drop-shadow(1px 1px 1px #4444dd);
+}
+
+.Google-text {
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 18rem;
+}
+/*CSS for Testimonial end*/

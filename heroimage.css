@@ -295,6 +295,11 @@ button:hover {
   display: grid;
   grid-template-rows: 1fr;
 
+
+.location-container{
+  display: grid;
+  grid-template-rows: 1fr;
+
   border: inherit;
   padding: 10px;
   margin: 50px;
@@ -400,44 +405,42 @@ width: 100%;
   flex-direction: column;
 }
 
-#footer h2 {
-  margin-top: 2rem;
-  font-family: pacifico;
-  color: #fff;
-  padding-bottom: 1rem;
+
+  border: inherit;
+  padding: 10px;
+  margin: 50px;
+ 
+}
+.item-1{
+
+border: none;
+padding: 30px;
+font-size: 30px;
+text-align: center;
+position: cover;
+}
+.item-2{
+border: none;
+padding: 20px;
+text-align: center;
+}
+.item-3{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding: 10px;
+margin: 5px;
+}
+h2{
+color:rgb(8, 8, 8);
+
+font-size: 30px;
+
+vertical-align: middle;
 }
 
-#footer p {
-  list-style: none;
-  text-decoration: none;
-  color: rgb(53, 134, 134);
-  font-size: 0.9rem;
+img{
+object-fit: cover;
+width: 100%;
 }
 
-.social-media {
-  /* border: 1px solid red; */
-  display: flex;
-  margin-bottom: 2rem;
-}
-
-.pinterest__media:hover {
-  filter: sepia(2);
-}
-
-.youtube:hover {
-  filter: sepia(2);
-}
-
-.pinterest:hover {
-  filter: sepia(2);
-}
-
-.pinterest {
-  padding-top: 0.9rem;
-}
-
-/*CSS for Footer end*/
-
-
-    
-
+/*css for location part end*/
