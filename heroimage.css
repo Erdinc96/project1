@@ -7,8 +7,8 @@ body {
   font-size: 18px;
   font-weight: 400;
 }
-.logo img{
-  width:6em;
+.logo img {
+  width: 6em;
   overflow: hidden;
   margin-left: 70px;
 }
@@ -18,9 +18,10 @@ body {
   display: flex;
   flex-direction: row;
   gap: 1em;
-  justify-content: right; 
-  align-items: center; 
+  justify-content: right;
+  align-items: center;
   font-size: 20px;
+  font-weight: bolder;
   padding: 10px;
   margin: -80px 0px 0px 10px;
 }
@@ -34,81 +35,75 @@ body {
 .navbar a:hover {
   border-bottom: 3px solid rgb(223, 181, 186);
 }
-a:active{
+a:active {
   color: green;
 }
+
  
 
  
       
-/* .background h2,
-.background h4 {
-  position: relative;
-  top: 40%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
-  color: rgb(65, 19, 19); 
-  height: 15px;
-  padding: 20px; 
-  margin-left:40px;
-  text-align: center;
-  text-shadow: -1px -1px 0 #d7b4b4;
-} */
+
+
+
+
+
 .signup-container {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    width: 300px;
-     margin-bottom: 800px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin-bottom: 800px;
 }
 
 .signup-container h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color:rgb(65, 19, 19); 
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(65, 19, 19);
 }
 
 .signup-form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-group {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 label {
-    font-weight: bold;
-    color:rgb(65, 19, 19); 
+  font-weight: bold;
+  color: rgb(65, 19, 19);
 }
-
 
 input[type="email"],
 input[type="password"] {
-    padding: 10px;
-    width: 100%;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 button {
-    padding: 10px;
-    background-color: rgb(65, 19, 19); 
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 10px;
+  background-color: rgb(65, 19, 19);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color:rgb(165, 76, 76);
+  background-color: rgb(165, 76, 76);
 }
-.signup,.forget-pass{
+.signup,
+.forget-pass {
   padding: 10px;
 }
 
-.signup a,.forget-pass a{
+.signup a,
+.forget-pass a {
   color: red;
 }
 
@@ -238,10 +233,11 @@ button:hover {
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 
   .hero-image {
@@ -292,92 +288,213 @@ button:hover {
         color:red;
       }
 
-      /* under Hero Image section*/
-      .cake-Packages{
-          display: flex;
-          justify-content: space-evenly;
-          flex-direction: row;
-          gap: 0.5;
-          background-color: rgba(243, 230, 232, 0.342);
-          place-items: center;
-          margin-left: 10rem;
-          margin-right: 10rem;
-          margin-top: 5rem;
-          margin-bottom: 10rem;
-        padding: 1rem;
-        gap: 1rem;
-      }
 
-      .btn{
-          float: right;
-          margin-right: 1rem;
-         
-          
-      }
+/* under Hero Image section*/
+.cake-Packages {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 0.5;
+  background-color: rgba(243, 230, 232, 0.342);
+  place-items: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  padding: 1rem;
+  gap: 1rem;
+}
 
-      .pkg-1{
-          background-color: rgba(219, 190, 196, 0.39);
-          color: rgb(8, 8, 8);
-          margin-right: 2rem;
-          padding: 1rem;
-      }
+.btn {
+  float: right;
+  margin-right: 1rem;
+}
 
-      .img{
-          border-color: tomato;
-          width: 200px;
-          height: 300px;
-          object-fit: cover;
-      }
+.pkg-1 {
+  background-color: rgba(219, 190, 196, 0.39);
+  color: rgb(8, 8, 8);
+  margin-right: 2rem;
+  padding: 1rem;
+}
 
-      h1{
-          width: 40px;
-      }
+.img {
+  border-color: tomato;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+h1 {
+  width: 40px;
+}
 /*CSS for loaction part*/
 
-
-
-.location-container{
+<<<<<<< HEAD
+=======
+.location-container {
   display: grid;
   grid-template-rows: 1fr;
+>>>>>>> 024dab1a81da06175a4c60de2f0105337993f9b0
+
+  .location-container {
+    display: grid;
+    grid-template-rows: 1fr;
+
+    border: inherit;
+    padding: 10px;
+    margin: 50px;
+  }
+  .item-1 {
+    border: none;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    position: cover;
+  }
+  .item-2 {
+    border: none;
+    padding: 20px;
+    text-align: center;
+  }
+  .item-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    margin: 5px;
+  }
+  h2 {
+    color: rgb(8, 8, 8);
+
+    font-size: 30px;
+
+    vertical-align: middle;
+  }
+
+  img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  /*css for location part end*/
+  /*CSS for Testimonial start*/
+
+  .global-testimonial-container {
+    background-color: rgb(30, 47, 47);
+    display: flex;
+  }
+
+  .testimonial-container {
+    display: flex;
+  }
+
+  .testimonial-img .person-img {
+    width: 150px;
+    height: 150px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+  }
+
+  .testimonial-container p {
+    color: #fff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 4rem;
+    margin-right: 8rem;
+  }
+
+  .mid-global-container {
+    background-color: rgb(30, 47, 47);
+  }
+
+  .mid-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .lower-global-container {
+    background-color: rgb(30, 47, 47);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .star-img {
+    width: 30px;
+    height: 30px;
+    margin-top: 0rem;
+  }
+
+  .Google-text {
+    color: #fff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 18rem;
+  }
+  /*CSS for Testimonial end*/
+
+  /*CSS for Footer start*/
+
+  #footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #333;
+    border-radius: 3px;
+    flex-direction: column;
+  }
 
   border: inherit;
   padding: 10px;
   margin: 50px;
- 
 }
-.item-1{
+.item-1 {
+  border: none;
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+  position: cover;
+}
+.item-2 {
+  border: none;
+  padding: 20px;
+  text-align: center;
+}
+.item-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  margin: 5px;
+}
+h2 {
+  color: rgb(8, 8, 8);
 
-border: none;
-padding: 30px;
-font-size: 30px;
-text-align: center;
-position: cover;
-}
-.item-2{
-border: none;
-padding: 20px;
-text-align: center;
-}
-.item-3{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-padding: 10px;
-margin: 5px;
-}
-h2{
-color:rgb(8, 8, 8);
+  font-size: 30px;
 
-font-size: 30px;
-
-vertical-align: middle;
+  vertical-align: middle;
 }
 
-img{
-object-fit: cover;
-width: 100%;
+img {
+  object-fit: cover;
+  width: 100%;
 }
 
 /*css for location part end*/
 
 
+<<<<<<< HEAD
 
+=======
+.section-video{
+  width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    transition:transform 0.9s ease;
+}
+.section-video:hover{
+  transform: scale(1.1);
+}
+>>>>>>> 024dab1a81da06175a4c60de2f0105337993f9b0
